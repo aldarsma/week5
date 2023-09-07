@@ -1,0 +1,33 @@
+.profile{
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width:1366px) {
+    html{
+        font-size: 75%;
+    }
+    .profile{
+        width:6rem;
+        height:6rem;
+    }
+}
+@media (max-width:758px) {
+    html{
+        font-size: 62.5%;
+    }
+    .profile{
+        width:4rem;
+        height:4rem;
+    }
+}
+
+@media (max-width:450px) {
+    html{
+        font-size: 55%;
+    }
+    .profile{
+        width:2rem;
+        height:2rem;
+    }
+}
